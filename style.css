@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header{
+    display: flex;
+    padding: 10px;
+}
+
+header img{
+    width: 50px;
+    height: auto;
+}
+
+.logo-div, .nav-div{
+    width: 50%;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+header nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Section 1 */
+
+#section_1{
+    display: flex;
+    padding: 20px;
+}
+
+.section-1-info{
+    width: 70%;
+    margin-left: 10px;
+}
+
+.section-1-info h1{
+    margin-bottom: 20px;
+}
+
+.section-1-info p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.img-div img{
+    float: right;
+    width: 350px;
+}
+
+section p{
+    text-align: justify;
+    margin-left: 10px;
+}
+
+/* Section 2 */
+
+#section-2{
+    padding: 20px;
+    text-align: center;
+}
+
+#section-2 div p{
+    width: 50%;
+    margin-left: 24%;
+    text-align: center;
+    padding: 30px;
+}
+
+#section-2 div img{
+    height: 250px;
+    margin: 30px;
+}
+
+/* Section 3 */
+.info{
+    display: flex;
+    width: 300%;
+    font-size: 14px;
+    align-items: flex-start;
+}
+
+.info i{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.info p{
+    margin: 5px 0;  
+}
+.info{
+    width: 45%;
+}
+
+#section-3 {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content:;
+    align-items: flex-start;
+}
+    
+
+
+section form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 45%; 
+}
+form{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+form{ 
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+form{ 
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    
+}
+#section-3 {
+    
+ justify-content: center;
+}
+.nom-prenom {
+
+    display: flex;
+
+}
+
+.nom-prenom div {
+
+    flex: 1;
+    display: flex;
+   flex-direction: column;
+}
+
+.group{
+    display: flex;
+    padding: 10px;
+}
+    
+
+footer{
+
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 14px;
+}
